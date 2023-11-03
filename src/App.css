@@ -1,0 +1,1298 @@
+@font-face {
+  font-family: "Mixta Pro It";
+  src: url("./Fonts/MixtaPro-RegularIt.woff2") format("woff2"),
+    url("./Fonts/MixtaPro-RegularIt.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Mixta Ess Didone";
+  src: url("./Fonts/FONTSPRINGDEMO-MixtaEssDidoneBlackRegular.woff2")
+      format("woff2"),
+    url("./Fonts/FONTSPRINGDEMO-MixtaEssDidoneBlackRegular.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-ExtraBold.woff2") format("woff2"),
+    url("./Fonts/TTCommons-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-BlackItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-DemiBoldItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-BoldItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-DemiBold.woff2") format("woff2"),
+    url("./Fonts/TTCommons-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Bold.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Black.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Medium.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-ExtraBoldItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Light.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Italic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-ExtraLightItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-ExtraLight.woff2") format("woff2"),
+    url("./Fonts/TTCommons-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-LightItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-ThinItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-MediumItalic.woff2") format("woff2"),
+    url("./Fonts/TTCommons-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Thin.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons";
+  src: url("./Fonts/TTCommons-Regular.woff2") format("woff2"),
+    url("./Fonts/TTCommons-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.problem-cards {
+  text-align: center;
+  box-shadow: 0px 0px 14px 1px #c5edff;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.problem-box {
+  overflow: auto;
+  height: 490px;
+  padding: 10px;
+}
+
+.problem-box::-webkit-scrollbar {
+  display: none;
+}
+
+.contanct-form input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  margin-bottom: 40px;
+  /* background-clip: padding-box; */
+  border: 0;
+  border-bottom: 1px solid #3b73ff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contanct-form {
+  padding: 80px;
+  box-shadow: 0px 0px 10px rgb(94 184 229 / 50%);
+  border-radius: 15px;
+}
+
+.btn-submit {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #5eb8e580;
+  border-radius: 10px !important;
+  width: 200px;
+  font: normal normal normal 18px/22px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.item {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  font: normal normal medium 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #1e73ff;
+  font-family: "TT Commons";
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+button.view-product.btn {
+  box-shadow: 0px 0px 10px rgb(94 184 229 / 50%);
+  font: normal normal normal 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #2580ec;
+}
+
+.service-text p {
+  font: normal normal normal 24px/36px TT Commons;
+
+  letter-spacing: 0px;
+  color: #555555;
+  position: relative;
+}
+
+.service-text h3 {
+  font: normal normal normal 44px/64px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+  position: relative;
+}
+
+.product-text p {
+  font: normal normal normal 24px/36px TT Commons;
+
+  letter-spacing: 0px;
+  color: #555555;
+  position: relative;
+}
+
+.product-text h3 {
+  font: normal normal normal 44px/64px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+  position: relative;
+}
+
+.banner-home {
+  background-image: url(Images/Banner/PPT\ asset-09.png);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.banner-home h4 {
+  letter-spacing: 0px;
+  color: #277bdf;
+  font-size: 50px;
+  font-family: Mixta Pro it !important;
+  font-style: italic;
+  line-height: 70px;
+}
+
+.item img {
+  width: 225px !important;
+  height: 225px;
+  margin: 0 auto;
+}
+
+.problem-cards h2 {
+  text-align: center;
+  font: normal normal normal 90px/100px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+  opacity: 0.5;
+}
+
+.problem-cards p {
+  text-align: center;
+  font: normal normal normal 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #1e73ff;
+}
+
+.service-text p img {
+  width: 69px;
+  height: 41px;
+  position: absolute;
+  top: -35px;
+  margin-left: -20px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.w-full {
+  width: -webkit-fill-available;
+}
+
+.banner-box-amin .butter-box {
+  width: 150px;
+  height: 105px;
+  position: absolute;
+  right: 0;
+}
+
+.banner-box-amin {
+  position: relative;
+}
+
+.solution-box {
+  background-image: url(Images/Banner/Rectangle56.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  position: relative;
+}
+
+.owl-nav {
+  display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791;
+  background: #a5ffcd 0% 0% no-repeat padding-box !important;
+  border: 1px solid #1e73ff;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  border: 1px solid #1e73ff;
+  background: #ffffff !important;
+}
+
+.footer-mid {
+  background-image: url(Images/Banner/PPT\ asset-03.png);
+  /* height: 100vh; */
+  background-size: 100% 100%;
+}
+
+h4.widget-title {
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 30px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer-list li a {
+  font: normal normal normal 20px/30px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+  text-decoration: none;
+}
+
+.font-lg.text-heading {
+  font: normal normal normal 20px/24px TT Commons;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+a.navbar-brand img {
+  width: 150px;
+}
+
+.cards-tools {
+  background-size: cover;
+  padding: 30px;
+  height: 100vh;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+
+  margin: 20px;
+}
+
+.cards-tools:first-child {
+  background-image: url(Images/Banner/CDD.png);
+}
+
+.cards-tools:nth-child(2) {
+  background-image: url(Images/Banner/CSAT.png);
+}
+
+.cards-tools:nth-child(3) {
+  background-image: url(Images/Banner/DCP.png);
+}
+
+.cards-tools h4 {
+  font: normal normal normal 50px/64px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+  opacity: 1;
+}
+
+.cards-tools p {
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.tools-seconds {
+  height: 105vh;
+  overflow: auto;
+}
+
+.tools-seconds::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  font: normal normal normal 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #277bdf;
+  opacity: 1;
+}
+
+.nav-link {
+  letter-spacing: 0px;
+  color: #277bdf !important;
+  opacity: 1;
+  font-size: 22px !important;
+  margin: 0px 10px;
+}
+
+.banner-box-amin img:first-child {
+  margin-top: 100px;
+  position: absolute;
+  left: -100px;
+  padding-left: -80px !important;
+  transform: rotate(354deg);
+}
+
+.banner-services {
+  background-image: url(Images/Banner/SERVICES.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cards-sevices {
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+}
+
+.row {
+  margin: auto 0 !important;
+}
+
+.service-images-box img {
+  border-radius: 0 25px 25px 0px;
+  height: 442px;
+  object-fit: cover;
+}
+
+.service-images-box-1 img {
+  border-radius: 25px 0 0 25px;
+  height: 442px;
+  object-fit: cover;
+}
+
+.service-text {
+  position: relative;
+}
+
+.product-text {
+  position: relative;
+}
+
+.product-text img {
+  width: 69px;
+  height: 41px;
+  position: absolute;
+  top: -25px;
+  margin-left: -20px;
+  transform: scaleX(-1);
+  right: -10px;
+}
+
+.my-20 {
+  margin: 100px 0px;
+}
+
+.banner-contact {
+  background-image: url(Images/Banner/CONTACT.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-blogs {
+  background-image: url(Images/Banner/BLOG.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-first-section img {
+  width: 90px;
+}
+
+.contact-first-section p {
+  text-align: left;
+  font: normal normal bold 22px/26px TT Commons;
+  letter-spacing: 0px;
+  color: #1e73ff;
+}
+
+.contact-first-section h6 {
+  text-align: left;
+  font: normal normal normal 22px/26px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.contanct-form h5 {
+  text-align: left;
+  font: normal normal medium 35px/42px TT Commons Classic;
+  letter-spacing: 0px;
+  color: #277bdf;
+  opacity: 1;
+  padding-left: 12px;
+}
+
+.banner-product {
+  background-image: url(Images/Banner/TOOLS.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.product-list-points ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.product-list-points img {
+  margin-left: 0px;
+  position: relative;
+  transform: scaleX(1);
+  width: 22px;
+  height: 16px;
+  top: 0;
+  right: 0;
+}
+
+.product-list-points p {
+  font: normal normal normal 25px/30px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.product-images-box img {
+  border-radius: 0 25px 25px 0px;
+  height: 885px;
+  object-fit: cover;
+}
+
+.product-images-box-1 img {
+  border-radius: 25px 0 0 25px;
+  height: 885px;
+  object-fit: cover;
+}
+
+.product-list-points a {
+  margin-left: 20px;
+  text-decoration: none;
+  font: normal normal normal 25px/30px TT Commons;
+  letter-spacing: 0px;
+  color: #277bdf;
+}
+
+.banner-aboutus {
+  background-image: url(Images/Banner/ABOUT.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.banner-cdd {
+  background-image: url(Images/Banner/CDDbanner.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-sdtm {
+  background-image: url(Images/Banner/SDTM.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.service-text h3 img {
+  width: 69px;
+  height: 41px;
+  position: absolute;
+  top: -25px;
+  margin-left: -20px;
+  transform: scaleX(-1);
+}
+
+.btn-box .btn-submit {
+  font: normal normal normal 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.btn-box .btn-primary {
+  background: #2580ec 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 0px 10px #5eb8e580 !important;
+  width: 250px;
+  font: normal normal normal 30px/36px TT Commons !important;
+}
+
+.box-items-about img {
+  width: 190px;
+  height: 190px;
+}
+
+.box-items-about {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 390px;
+}
+
+.box-items-about p {
+  font: normal normal medium 30px/36px TT Commons Classic;
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "TT Commons";
+}
+
+.cdd-doc-image h1 {
+  text-align: center;
+  font: normal normal normal 75px/60px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+}
+
+.cdd-doc-image p {
+  text-align: center;
+  font: normal normal normal 30px/60px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+}
+
+.cdd-doc-image img {
+  width: 233px;
+  height: 233px;
+}
+
+.cdd-doc-image {
+  text-align: center;
+}
+
+.box-items-about-1 img {
+  width: 190px;
+  height: 190px;
+}
+
+.box-items-about-1 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 320px;
+}
+
+.box-items-about-1 p {
+  font: normal normal medium 30px/36px TT Commons Classic;
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "TT Commons";
+}
+
+.box-items-about-1 {
+  text-align: center;
+}
+
+.head-cdd {
+  text-align: center;
+  font: normal normal normal 50px/64px Mixta Pro;
+  letter-spacing: 0px;
+  color: #1e73ff;
+}
+
+.cards-cdd-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  margin-bottom: 80px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.cards-cdd-box p {
+  text-align: left;
+
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 30px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.cards-cdd-box-1 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  margin-bottom: 80px;
+}
+
+.cards-cdd-box-1 p {
+  text-align: left;
+
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 30px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.item h4 {
+  font-size: 30px;
+}
+
+.keyfeature {
+  height: 70vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.keyfeature::-webkit-scrollbar {
+  display: none;
+}
+
+.benfits-cdd {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  text-align: center;
+  /* display: flex; */
+  /* align-items: center; */
+  padding: 45px 0;
+  height: 360px;
+}
+
+.benfits-cdd h4 {
+  font: normal normal normal 150px/150px Mixta Pro;
+  letter-spacing: 0px;
+  color: #277bdf;
+  opacity: 0.5;
+}
+
+.benfits-cdd p {
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.tab-box .nav-link {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 1px solid #2580ec !important;
+  font: normal normal normal 30px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #555555 !important;
+  margin: 0;
+  border-radius: 0px 0px 0px 0px !important;
+
+  padding: 5px 40px;
+}
+
+/* .tab-box .nav-link:first-child {
+  border-radius: 20px 0px 0px 0px !important;
+  ;
+} */
+
+/* .tab-box li button:first-child {
+  border-radius: 20px 0px 50px 0px !important;
+  ;
+} */
+
+.tab-box .nav-link.active {
+  background: #2580ec !important;
+  color: white !important;
+}
+
+.cards-cdd-box h4 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  font-size: 35px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.cards-cdd-box-1 h4 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  font-size: 35px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.platfrom-cards img {
+  width: 200px;
+  padding: 30px;
+}
+
+.data-capture-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.platfrom-cards div {
+  width: 200px;
+  border: 2px dotted #2580ec;
+  border-radius: 110px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.data-capture-text h5 {
+  text-align: center;
+  font: normal normal bold 24px/42px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+.data-capture-text p {
+  text-align: center;
+  font: normal normal medium 35px/42px;
+  font-size: 24px;
+  font-family: TT Commons;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.box-items-about-2 img {
+  width: 130px;
+  height: 130px;
+}
+
+.box-items-about-2 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 320px;
+}
+
+.box-items-about-2 p {
+  font: normal normal medium 30px/36px TT Commons Classic;
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "TT Commons";
+}
+
+.box-items-about-2 {
+  text-align: center;
+}
+
+.banner-csat {
+  background-image: url(Images/Banner/CSATbanner.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.box-items-about-3 img {
+  width: 130px;
+  height: 130px;
+}
+
+.box-items-about-3 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 20px #5eb8e580;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 350px;
+}
+
+.box-items-about-3 p {
+  font: normal normal medium 30px/36px TT Commons Classic;
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "TT Commons";
+}
+
+.box-items-about-3 {
+  text-align: center;
+}
+
+.tab-content h3 {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #555555;
+  font-size: 30px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.p-cdd {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  font-size: 30px;
+  font-family: "TT Commons";
+  line-height: 42px;
+}
+
+.tab-box li {
+  box-shadow: 0px 0px 10px #5eb8e580;
+}
+
+/* .bg-box-main{
+  background-image: url(Images/Otherassets/PPT\ asset-05.png);
+} */
+
+input:focus-visible {
+  outline: none;
+}
+
+.border-right-primary {
+  border-right: 1px solid #1e73ff78;
+}
+
+/* navigation bar */
+.navbar-light .navbar-nav .active {
+  border-bottom: 2px solid #37587b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #37587b;
+}
+/* end of navigation bar */
+
+/*mega menu*/
+.dropdown-hover {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-hover-content {
+  display: none;
+  position: absolute;
+  margin-top: 2px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  padding: 14px 14px 0;
+  z-index: 4;
+  border-top: 1px solid #bbd8ff;
+}
+
+.dropdown-hover-content .row {
+  width: 100%;
+}
+
+.dropdown-hover-content a.dropdown-item {
+  font-size: 20px;
+  white-space: normal;
+  color: #277bdf;
+  font-family: "TT Commons";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-hover:hover .dropdown-hover-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*end of mega menu*/
+
+@media (max-width: 575.98px) {
+  .megamenu {
+    padding: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .megamenu {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .megamenu {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+a.dropdown-item.p-0 img {
+  width: 30px;
+}
+
+.btn {
+  font-family: "TT Commons";
+}
+.product-text h6 {
+  text-align: left;
+  font: normal normal normal 24px/36px TT Commons;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .banner-box-amin img:first-child {
+    position: relative;
+  }
+
+  .banner-home h4 {
+    font-size: 26px;
+
+    line-height: 35px;
+  }
+
+  .service-text h3 {
+    font: normal normal normal 26px/35px Mixta Pro;
+  }
+
+  .problem-cards p {
+    font: normal normal normal 18px/20px TT Commons;
+  }
+  .solution-box .service-text h3 {
+    font: normal normal normal 16px/25px Mixta Pro;
+  }
+
+  .solution-box {
+    height: 38vh;
+
+    margin: 10px;
+  }
+
+  .cards-tools h4 {
+    font: normal normal normal 26px/35px Mixta Pro;
+  }
+
+  .cards-tools p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .cards-tools {
+    margin: 20px 0;
+  }
+
+  button.view-product.btn {
+    font: normal normal normal 25px/33px TT Commons;
+  }
+
+  .item h4 {
+    font-size: 20px;
+  }
+  .item {
+    height: auto;
+  }
+  .contanct-form {
+    padding: 25px;
+  }
+
+  .contanct-form input {
+    margin-bottom: 20px;
+  }
+  .btn-submit {
+    width: -webkit-fill-available;
+  }
+
+  .product-text h3 {
+    font: normal normal normal 26px/35px Mixta Pro;
+  }
+
+  .product-text p {
+    font: normal normal normal 18px/20px TT Commons;
+  }
+
+  .banner-cdd {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+  .banner-csat {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+  .banner-services {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+
+  .banner-aboutus {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+
+  .banner-sdtm {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+
+  .banner-blogs{
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+
+  .banner-contact {
+    background-size: 100% 100%;
+    height: 50vh;
+  }
+  .cdd-doc-image h1 {
+    font: normal normal normal 42px/60px Mixta Pro;
+  }
+  .cdd-doc-image p {
+    font: normal normal normal 20px/10px Mixta Pro;
+  }
+
+  .head-cdd {
+    font: normal normal normal 30px/44px Mixta Pro;
+  }
+  .cards-cdd-box img {
+    width: 250px;
+  }
+  .cards-cdd-box p {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "TT Commons";
+    line-height: 30px;
+  }
+  .cards-cdd-box {
+    height: auto;
+  }
+  .box-items-about-3 {
+    height: auto;
+  }
+
+  .box-items-about-3 p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .cards-cdd-box h4 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .p-cdd {
+    line-height: 28px;
+    font-size: 22px;
+  }
+  .tab-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .service-images-box img {
+    border-radius: 0 0px 25px 25px;
+    height: auto;
+  }
+  .service-images-box-1 img {
+    border-radius: 25px 25px 0px 0px;
+    height: auto;
+  }
+
+  .service-text h3 {
+    font: normal normal normal 20px/18px Mixta Pro !important;
+  }
+
+  .service-text p {
+    font: normal normal normal 18px/20px TT Commons;
+  }
+
+  .btn-box .btn-submit {
+    font: normal normal normal 22px/28px TT Commons;
+    margin-bottom: 10px;
+  }
+
+  .btn-box .btn-primary {
+    font: normal normal normal 22px/28px TT Commons !important;
+  }
+
+  .box-items-about p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .box-items-about {
+    height: auto;
+  }
+
+  .service-text h3 img {
+    top: -45px;
+    margin-left: auto;
+  }
+
+  .btn-box .btn-submit {
+    margin-right: auto;
+  }
+  .border-right-primary {
+    border-right: 0px solid #1e73ff78;
+  }
+  .product-text h6 {
+    font: normal normal normal 18px/20px TT Commons;
+}
+}
