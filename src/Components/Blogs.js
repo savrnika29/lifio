@@ -40,7 +40,7 @@ function Blogs() {
                 <p>Blogs | AI/ML</p>
                 <h3>
                   If you’re in the race to get lifesaving drugs to market
-                  faster, consider us as the wings beneath your feet.
+                  faster, consider us as the wings beneath your feet. 
                 </h3>
                 <img class="box" src={butterfy} />
                 <h6>

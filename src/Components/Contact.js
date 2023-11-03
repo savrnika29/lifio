@@ -40,7 +40,7 @@ function Contact() {
       })
       .catch(function (error) {
         console.log(error);
-        toast.error("falied " + error.message);
+        toast.error("falied" + error.message);
       });
   };
   return (
@@ -150,8 +150,7 @@ function Contact() {
                         value={query}
                         placeholder="Your message"
                         onChange={(e) => setQuery(e.target.value)}
-                        required
-
+                        require
                       />
                     </div>
 
